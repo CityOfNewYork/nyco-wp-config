@@ -1,6 +1,6 @@
 {
   "name": "nyco/wp-config",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "wordpress-muplugin",
   "license": "GPL-3.0+",
   "description": "A WordPress package for environment configuration.",
@@ -30,10 +30,10 @@
   },
   "scripts": {
     "lint": [
-      "vendor/bin/phpcs --standard=standard.xml --extensions=php --ignore=vendor/ ./dist"
+      "vendor/bin/phpcs --standard=standard.xml --extensions=php --ignore=vendor/ ."
     ],
     "fix": [
-      "vendor/bin/phpcbf --standard=standard.xml --extensions=php --ignore=vendor/ ./dist"
+      "vendor/bin/phpcbf --standard=standard.xml --extensions=php --ignore=vendor/ ."
     ]
   }
 }
