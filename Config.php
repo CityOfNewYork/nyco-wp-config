@@ -68,7 +68,7 @@ if (file_exists($path . 'config.yml')) {
       update_option(strtolower(str_replace('WP_OPTION_', '', $key)), $value);
     }
   }
-} else if (null !== WP_DEBUG && WP_DEBUG) {
+} elseif (null !== WP_DEBUG && WP_DEBUG) {
   throw new Exception(
     "The configuration file or secret could not be found at $path."
   );
