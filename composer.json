@@ -24,7 +24,7 @@
   "require": {
     "composer/installers": "~1.0",
     "mustangostang/spyc": "^0.6",
-    "illuminate/encryption": "^5.6"
+    "illuminate/encryption": "^7.18"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "3.*",
